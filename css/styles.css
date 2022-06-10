@@ -1,0 +1,234 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* General styles */
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+
+
+h1{
+	color: white;
+	text-align-last: center;
+	font-weight: lighter; 
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 8rem;
+	
+}
+
+h2 {
+  font-size: 4rem;
+		text-align-last: center;
+}
+
+ul,ol,dl,p {
+  font-size: 1.5rem;
+}
+
+li, p {
+  line-height: 1.5;
+}
+
+
+
+
+.acerca{
+	
+	text-align: center;
+}
+.contacto{
+	border-color: transparent; 
+	border-radius: 30px; 
+	padding: 5px 5px; 
+	background-color: black;
+	color:darkorange;
+	clear: both; 
+}
+
+
+
+.container
+{flex-wrap: wrap;
+	padding-left: 5%;
+	padding-right: 5%;
+	
+	
+}
+
+
+.nuestrosclientes {
+  max-width: 100%;
+  height: auto;
+	
+}
+
+.socialicons{
+
+	
+}
+
+/* hero */
+
+.hero {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+	clear: both;
+	
+}
+
+
+.hero-image {
+  background-image: url("file:///C:/Users/Bijou/Documents/Bootstrap/sitio%20mind/images/Fondo%20mountain%20principal%20MIND.png");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+	clear: both;
+	
+}
+
+
+
+/* menu */
+
+.menu {
+ list-style: none;
+	
+	display: flex;
+	
+}
+
+ li {
+	 padding: .5em;
+	display: inline;
+	 color: white;
+
+}
+
+a {
+	
+	
+}
+
+a:hover {
+  
+	cursor: pointer;
+}
+/* menu rrss */
+
+
+.menurrss {
+ list-style: none;
+	
+	display: flex;
+	
+}
+
+
+
+
+/* menu footer */
+
+.menufooter {
+ list-style: none;
+	
+	display: flex;
+	background-color:  black;
+	
+}
+
+a{
+	
+	text-decoration: none;
+	color: orange;
+	font-weight: bold; 
+}
+
+/* social footer */
+
+
+.iconsheader {
+	border-color: transparent;
+	align-items:center;
+	padding: 2px 2px;
+	background-color: transparent; 
+
+}
+
+
+
+.iconsfooter{
+	
+		border-color: transparent;
+	align-items:center;
+	padding: 2px 2px;
+	background-color: transparent; 
+
+}
+
+
+
+
+
+
+/* carousel */
+.slider {
+	width: 95%;
+	margin: 10px;
+	overflow: hidden;
+	
+	
+}
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 500%;
+	
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 80%;
+	list-style: none;
+	border-color: black;
+	
+
+}
+
+.slider img {
+	width: 50%;
+	
+	border-radius: 50px; 
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	17% {margin-left: 0;}
+	
+	23% {margin-left: -100%;}
+	40% {margin-left: -100%;}
+	
+	45% {margin-left: -200%;}
+	62% {margin-left: -200%;}
+	
+	67% {margin-left: -300%;}
+	84% {margin-left: -300%;}
+
+	89% {margin-left: -400%;}
+	100% {margin-left: -400%;}}
